@@ -1,0 +1,2 @@
+for i in range(220,730,7):
+    print(i,end=" ")
