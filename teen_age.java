@@ -6,7 +6,7 @@ class teen_age {
         System.out.println("Enter your age  = ");
         int n = sc.nextInt();
         
-   if(n%2==0 && n>=0){
+   if(n<=19 && n>=13){
        System.out.println("YOu are teenager");
    }
    else{
