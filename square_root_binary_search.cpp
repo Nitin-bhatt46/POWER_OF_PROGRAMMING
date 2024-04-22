@@ -10,7 +10,10 @@ int main() {
     int start =1;
     int end=find;
     int ans;
-    
+
+    if(find<2){
+    cout<<find;
+    }
     while(start<=end){
         mid = (start+end)/2;
         if(mid *mid==find){
